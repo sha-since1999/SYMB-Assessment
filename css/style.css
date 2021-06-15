@@ -1,0 +1,357 @@
+body{
+    background-color: #d8d8d870;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    min-height: 550px;
+    background-image: linear-gradient(rgba(52, 55, 55, 0.7),  rgba(1, 18, 19, 0.7)), url(https://images.unsplash.com/photo-1501999635878-71cb5379c2d8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFpbiUyMG5pZ2h0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    /* background-image: linear-gradient(rgba(52, 55, 55, 0.7),  rgba(1, 18, 19, 0.7)), url(img/IMG10.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+
+}
+
+.header p{
+  
+position: absolute;
+width:770px;
+height: 241px;
+left: 330px;
+top: 100px;
+font-family: 'Cabin', sans-serif;
+
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header button{
+ position: absolute;
+width: 130px;
+height: 40px;
+left: 650px;
+top: 420px;
+font-family: Tamil Sangam MN;
+font-style:initial;
+font-weight:lighter;
+font-size: 15px;
+/* line-height: 35px; */
+text-align: center;
+/* letter-spacing: 0.05em; */
+background-color: rgba(197, 95, 95,.0);
+color: #eee8e8;
+padding: 12px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border: .5px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 7px;
+
+}
+.header h3{
+position: absolute;
+width: 400px;
+height: 10px;
+left: 520px;
+top: 590px;
+font-family: cabin;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+hr{
+ position: absolute;
+width: 400px;
+left: 520px;
+top: 652px;
+}
+.main{
+    position: relative;
+margin-left: 130px;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    align: center;
+
+}
+.card div{
+    position: relative;
+    display: inline-block;
+    float:right;
+    width: 40px;
+    left: 40px;
+
+}
+.card img{
+position: relative;
+height: 250px;
+top: 0px;
+order: 0;
+flex-grow: 0;
+}
+.main .card h4{
+    position: relative;
+width: 405px;
+height:20px;
+left: 0px;
+
+font-family: Tamil Sangam MN;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 39.48%;
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.6);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
+.card p{
+position: static;
+width: 370px;
+
+left: 0px;
+top: 318px;
+
+font-family: Saira;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0.05em;
+
+color: rgba(0, 0, 0, 0.5);
+text-align: justify;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 10px 0px;
+
+}
+.card hr{
+    position: sticky;
+    border-style:dashed;
+    width: 90%;
+    top:auto;
+    margin-right: 10%;
+    color: #b1aeae;font-weight: 100;
+
+
+}
+#cmnt{
+    position:-webkit-sticky;
+    text-align: right;
+    font-weight: 100;
+    font-size: small;
+line-height:0px;
+    color: #a7a7a7;
+
+}
+.mid-header{
+top: 250px;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background-image: linear-gradient(rgba(52, 55, 55, 0.7),  rgba(1, 18, 19, 0.7)), url(https://images.unsplash.com/photo-1516389207633-e5784a9518d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFpbiUyMG5pZ2h0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60ss);
+    /* background-image: linear-gradient(rgba(52, 55, 55, 0.7),  rgba(1, 18, 19, 0.7)), url(img/IMG9.jpg); */
+    background-position: center;
+    background-size: cover;
+
+}
+
+.mid-header p{
+  
+position: absolute;
+width:780px;
+height: 241px;
+left: 330px;
+top: 80px;
+font-family: 'Cabin', sans-serif;
+
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.mid-header button{
+ position: absolute;
+width: 130px;
+height: 40px;
+left: 650px;
+top: 250px;
+font-family: Tamil Sangam MN;
+font-style:initial;
+font-weight:lighter;
+font-size: 15px;
+/* line-height: 35px; */
+text-align: center;
+/* letter-spacing: 0.05em; */
+background-color: rgba(197, 95, 95,.0);
+color: #eee8e8;
+padding: 12px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border: .5px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 7px;
+
+}
+.mid-header h3{
+position: absolute;
+width: 400px;
+height: 10px;
+left: 520px;
+top: 380px;
+
+font-family: cabin;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.mid-header hr{
+ position: absolute;
+width: 400px;
+left: 520px;
+top: 450px;
+}
+
+.gallary {
+      position: relative;
+    margin-left: 160px;
+    top: 450px;
+    display: flex;
+    align-items: center;
+    align: center;
+}
+.gallary div{
+    margin-right: 30px;
+}
+.gallary .card h4{
+position: relative;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 30px;
+text-align:center;
+letter-spacing: 0.05em;
+align-items: center;
+/* margin-left: 160px; */
+color: #5c5959;
+
+}
+#brand{
+
+    margin-top: 550px;
+
+}
+
+#portfolio-btn{
+position: relative;
+background: #61D5B9;
+border-radius: 6px;
+border: #61D5B9;
+
+width: 201px;
+height: 40px;
+left: 620px;
+top: 500px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: lighter;
+font-size: 10px;
+line-height: 30px;
+
+text-align: center;
+letter-spacing: .09em;
+
+color: #FFFFFF;
+
+}
+
+.footer {
+    position: relative;
+     background: #2e2c2c;
+     min-height:350px;
+     margin:0px;
+     margin-bottom: 0px;
+     padding: 0;
+
+
+}
+.footer h3{
+position: absolute;
+width: 300px;
+height: 10px;
+left: 580px;
+top: 45px;
+color: #eee8e8;
+font-family: cabin;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.05em;
+
+}
+.footer hr{
+position: absolute ;
+width: 400px;
+left: 520px;
+top: 110px;
+color:white;
+}
+.footer p{
+    
+position: absolute;
+width: 750px;
+/* height: 176px; */
+left: 350px;
+top: 174px;
+align-content: center;
+
+font-family:sans-serif;
+font-style: normal;
+font-weight:10;
+font-size: 18px;
+line-height: 148.94%;
+/* or 33px */
+letter-spacing: 0.05em;
+color: #e6e1e1;
+text-align: justify;
+
+}
